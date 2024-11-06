@@ -1,0 +1,25 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+  height: auto;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: url('../images/hand.svg'), auto;
+}
